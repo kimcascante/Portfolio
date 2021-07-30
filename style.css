@@ -1,7 +1,9 @@
 body{
-  margin: 0cm;
+  margin:0px;
   font-family: "Note Sans", sans-serif;
+  
 }
+
 
 .cover{
   height:400px;
@@ -16,7 +18,67 @@ body{
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.cover-small{
-  height:200px;
+.avatar{
+  height:120px;
+  background-size:cover;
+  background-position:center;
+  display:inline-block;
+}
+
+img{
+  margin:10px auto;
+  display:block;
+}
+
+.nav-link{
+  color:white;
+}
+
+.nav-link:hover{
+  color:cyan;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  bottom:0px;
+  height:40px;
+  width:100%;
+
+}
+
+#footer-a{
+  margin:auto;
+}
+
+#nav-link-p{
+  color:cyan;
+}
+
+#buttonsocial > a{
+  border:white;
+}
+
+h5{
+  font:bold;
+}
+
+figure{
+  width:100px;
+  height:100px;
+}
+
+a{
+  color:black;
+}
+
+
+a:hover{
+  color:#21D1E3;
+}
+
+#size{
+  width:auto;
+  height:300px;
 }
 
